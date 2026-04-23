@@ -39,13 +39,13 @@
       '<strong>4. IPL Player Analytics & Auction Strategy</strong> — Performance metrics and a value index to surface undervalued players.<br><br>' +
       '<strong>5. Digital Marketing Strategy (Riya Designing Studio)</strong> — SEO, SEM, and social strategy for scalable customer acquisition.<br><br>' +
       '<strong>6. Smart Irrigation System (IoT)</strong> — Soil-moisture sensors + weather data projecting 30–50% water savings.<br><br>' +
-      'Visit <a href="projects.html" class="underline text-[#A67C52]">Projects</a> for full details!',
+      'Visit <a href="projects.html" class="underline text-[#6e56cf]">Projects</a> for full details!',
 
     'How can I contact her?':
       'You can reach Sriyogya through:<br><br>' +
-      '📧 <strong>Email:</strong> <a href="mailto:sriyogyaguggulla@gmail.com" class="underline text-[#A67C52]">sriyogyaguggulla@gmail.com</a><br>' +
-      '📱 <strong>Phone:</strong> <a href="tel:+919164999999" class="underline text-[#A67C52]">+91 9164999999</a><br>' +
-      '💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sriyogya-guggulla-0b16aa2a0/" target="_blank" rel="noopener noreferrer" class="underline text-[#A67C52]">sriyogya-guggulla</a><br><br>' +
+      '📧 <strong>Email:</strong> <a href="mailto:sriyogyaguggulla@gmail.com" class="underline text-[#6e56cf]">sriyogyaguggulla@gmail.com</a><br>' +
+      '📱 <strong>Phone:</strong> <a href="tel:+919164999999" class="underline text-[#6e56cf]">+91 9164999999</a><br>' +
+      '💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sriyogya-guggulla-0b16aa2a0/" target="_blank" rel="noopener noreferrer" class="underline text-[#6e56cf]">sriyogya-guggulla</a><br><br>' +
       'Or use the "Send an Email" button above!',
 
     'What is she studying?':
@@ -57,14 +57,14 @@
       '<strong>3. AI Student of the Year — Top 5 Rank</strong> — AI Hub, Mahindra University × Google Gemini<br>' +
       '<strong>4. Fintenship Program</strong> — Finance internship with 3 real-time projects (portfolio tracker, financial statement analysis, budget tracker)<br>' +
       '<strong>5. UN CC:Learn — Climate Change Certification</strong> — UNITAR, October 2023<br><br>' +
-      'See <a href="certifications.html" class="underline text-[#A67C52]">Certifications</a> for the full list with images.',
+      'See <a href="certifications.html" class="underline text-[#6e56cf]">Certifications</a> for the full list with images.',
 
     'Extracurriculars?':
       '<strong>👕 Clothing Donation Drive</strong> — Led a drive with Share At Door Step, coordinating collection and pickup while promoting sustainability.<br><br>' +
       '<strong>🩺 Vaccination & Medical Drive</strong> — Led a rural community health drive in Andhra Pradesh with local health centres and volunteers.<br><br>' +
       '<strong>🌍 Student Leader — Global Immersion Programme</strong> — Recognised at Mahindra University (June 2025) for leadership and coordination.<br><br>' +
       '<strong>🍽️ Food Distribution Drive</strong> — Partnered with Veerabhadra Trust to distribute meals to underserved communities.<br><br>' +
-      'More at <a href="extracurricular.html" class="underline text-[#A67C52]">Extra-Curricular</a>.',
+      'More at <a href="extracurricular.html" class="underline text-[#6e56cf]">Extra-Curricular</a>.',
 
     'Resume highlights?':
       '<strong>Highlights:</strong><br>' +
@@ -73,7 +73,7 @@
       '• <strong>Cornell University immersion</strong> (Ithaca, USA, July 2024)<br>' +
       '• <strong>6 applied projects</strong> spanning analytics, UX, research, sports analytics, marketing, and IoT<br>' +
       '• <strong>Community leadership</strong> across clothing, health, food-distribution, and student-led programs<br><br>' +
-      'Visit the <a href="resume.html" class="underline text-[#A67C52]">Resume</a> page for the full picture.'
+      'Visit the <a href="resume.html" class="underline text-[#6e56cf]">Resume</a> page for the full picture.'
   };
 
   /* ── Fuzzy matching for free-text input ── */
@@ -99,8 +99,8 @@
     var bubble = document.createElement('div');
     bubble.className = 'max-w-[80%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed shadow-sm border ' +
       (isUser
-        ? 'ml-auto bg-[#A67C52] text-white rounded-br-md border-[#A67C52]/20'
-        : 'mr-auto bg-white text-[#2B2B2B] rounded-bl-md border-[#A67C52]/10');
+        ? 'ml-auto bg-[#6e56cf] text-white rounded-br-md border-[#6e56cf]/20'
+        : 'mr-auto bg-white text-[#2a2a4a] rounded-bl-md border-[#6e56cf]/10');
     if (isUser) {
       bubble.textContent = text;
     } else {
@@ -113,8 +113,8 @@
   function showTypingIndicator() {
     var indicator = document.createElement('div');
     indicator.id = 'typing-indicator';
-    indicator.className = 'max-w-[80%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed mr-auto bg-white text-[#2B2B2B] rounded-bl-md shadow-sm border border-[#A67C52]/10';
-    indicator.innerHTML = '<span class="inline-flex gap-1"><span class="w-2 h-2 bg-[#A67C52]/40 rounded-full animate-bounce" style="animation-delay:0ms"></span><span class="w-2 h-2 bg-[#A67C52]/40 rounded-full animate-bounce" style="animation-delay:150ms"></span><span class="w-2 h-2 bg-[#A67C52]/40 rounded-full animate-bounce" style="animation-delay:300ms"></span></span>';
+    indicator.className = 'max-w-[80%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed mr-auto bg-white text-[#2a2a4a] rounded-bl-md shadow-sm border border-[#6e56cf]/10';
+    indicator.innerHTML = '<span class="inline-flex gap-1"><span class="w-2 h-2 bg-[#6e56cf]/40 rounded-full animate-bounce" style="animation-delay:0ms"></span><span class="w-2 h-2 bg-[#6e56cf]/40 rounded-full animate-bounce" style="animation-delay:150ms"></span><span class="w-2 h-2 bg-[#6e56cf]/40 rounded-full animate-bounce" style="animation-delay:300ms"></span></span>';
     chatMessages.appendChild(indicator);
     chatMessages.scrollTop = chatMessages.scrollHeight;
   }
